@@ -2,7 +2,20 @@
 
 Two Claude skills that turn an idea into a narrated vertical video. You describe the video, Claude writes the script, ElevenLabs speaks it, and Remotion or Revideo renders a 1080x1920 MP4 for Shorts, Reels or TikTok.
 
+## What you get
+
+This is the example that ships with the kit, rendered from [kit/common/script.json](kit/common/script.json) with no edits. The preview is silent and shrunk; the MP4s are the real 1080x1920 output with the voice.
+
+<img src="docs/example.gif" width="300" alt="The 25 second example video: hook, three points, a number counting up to 66, a bar chart, and a call to action with confetti">
+
+- Remotion output: [docs/example-remotion.mp4](docs/example-remotion.mp4) (25 s, 2.6 MB)
+- Revideo output: [docs/example-revideo.mp4](docs/example-revideo.mp4) (25 s, 2.7 MB)
+
+Both files were re-compressed with ffmpeg to keep the repo small. Straight out of the renderer they are 4.9 MB and 11 MB. Run the steps below with your own ElevenLabs key and you get this same video; change `script.json` and you get yours.
+
 ![Four frames from the example video](docs/example.png)
+
+## What's in the starter
 
 Both skills ship the same starter video, built two ways:
 
