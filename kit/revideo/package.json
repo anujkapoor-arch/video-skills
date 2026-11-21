@@ -1,0 +1,23 @@
+{
+  "name": "my-video-revideo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "narrate": "python3 narrate.py",
+    "render": "tsx src/render.ts",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@revideo/2d": "0.11.0",
+    "@revideo/cli": "0.11.0",
+    "@revideo/core": "0.11.0",
+    "@revideo/ffmpeg": "0.11.0",
+    "@revideo/renderer": "0.11.0",
+    "@revideo/ui": "0.11.0",
+    "@revideo/vite-plugin": "0.11.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}

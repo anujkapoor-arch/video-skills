@@ -1,0 +1,109 @@
+{
+  "channel": "Tiny Habits Lab",
+  "tag": "Ep 1",
+  "footer": "",
+  "captions": true,
+  "mascot": true,
+  "voice": {
+    "id": "",
+    "speed": 1.1
+  },
+  "theme": {
+    "background": [
+      "#ffd23f",
+      "#ff9f1c",
+      "#ff5d8f"
+    ],
+    "ink": "#1b1035",
+    "accents": [
+      "#7b2ff7",
+      "#00c2a8",
+      "#ff5d8f"
+    ],
+    "highlight": "#ffd23f"
+  },
+  "scenes": [
+    {
+      "kind": "hook",
+      "say": "Stop setting big goals. Try the two minute rule.",
+      "chip": "Habit tip",
+      "title": "The 2 minute rule",
+      "subtitle": "Start so small you can't say no",
+      "bubble": "Psst!"
+    },
+    {
+      "kind": "points",
+      "say": "Shrink the habit until it takes two minutes. Do it at the same time every day. Then stop while it still feels easy.",
+      "title": "How it works",
+      "items": [
+        {
+          "text": "Shrink it to two minutes",
+          "at": "shrink"
+        },
+        {
+          "text": "Same time every day",
+          "at": "same"
+        },
+        {
+          "text": "Stop while it's easy",
+          "at": "stop"
+        }
+      ]
+    },
+    {
+      "kind": "stat",
+      "say": "One study found a new habit takes about sixty six days to stick.",
+      "label": "Days for a habit to stick",
+      "value": 66,
+      "suffix": " days",
+      "note": "Lally et al., 2010",
+      "at": "sixty"
+    },
+    {
+      "kind": "bars",
+      "say": "Two minutes a day sounds tiny. But it adds up to one hour in a month, six hours in half a year, and twelve hours in a year.",
+      "title": "Two minutes a day adds up",
+      "unit": " h",
+      "items": [
+        {
+          "label": "1 month",
+          "value": 1,
+          "at": "month"
+        },
+        {
+          "label": "6 months",
+          "value": 6,
+          "at": "half"
+        },
+        {
+          "label": "1 year",
+          "value": 12,
+          "at": "twelve"
+        }
+      ]
+    },
+    {
+      "kind": "cta",
+      "say": "Like this, comment your habit, and follow for more.",
+      "title": "Try it today",
+      "bubble": "Go!",
+      "items": [
+        {
+          "text": "Like",
+          "icon": "heart",
+          "at": "like"
+        },
+        {
+          "text": "Comment",
+          "icon": "chat",
+          "at": "comment"
+        },
+        {
+          "text": "Follow",
+          "icon": "play",
+          "at": "follow"
+        }
+      ]
+    }
+  ]
+}
